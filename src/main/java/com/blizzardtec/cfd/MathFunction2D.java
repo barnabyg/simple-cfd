@@ -6,6 +6,14 @@ package com.blizzardtec.cfd;
  * @author Barnaby Golden
  *
  */
-public abstract class MathFunction2D{
-    public abstract double eval(double x, double y);
+public abstract class MathFunction2D {
+
+    /**
+     * blah.
+     * @param x param
+     * @param y param
+     * @return val
+     */
+    public abstract double eval(
+            final double x, final double y);
 }
