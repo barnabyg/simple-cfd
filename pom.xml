@@ -43,7 +43,7 @@
             <phase>verify</phase>
             <goals>
               <goal>check</goal>
-              <goal>cpd-check</goal>
+<!--               <goal>cpd-check</goal> -->
             </goals>
           </execution>
         </executions>
@@ -73,7 +73,7 @@
         <version>${cobertura.version}</version>
         <configuration>
           <check>
-            <haltOnFailure>true</haltOnFailure>
+            <haltOnFailure>false</haltOnFailure>
             <branchRate>45</branchRate>
             <lineRate>50</lineRate>
             <totalBranchRate>45</totalBranchRate>

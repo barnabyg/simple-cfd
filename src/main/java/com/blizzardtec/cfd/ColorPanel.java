@@ -44,7 +44,7 @@ public final class ColorPanel extends Panel {
     /**
      * blah.
      */
-    private float hue;
+    private final float hue;
     /**
      * blah.
      */

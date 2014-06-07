@@ -36,11 +36,11 @@ public final class GaussSeidel {
     /**
      * x.
      */
-    private double[] xCoordinates;
+    private final double[] xCoordinates;
     /**
      * y.
      */
-    private double[] yCoordinates;
+    private final double[] yCoordinates;
     /**
      * mesh.
      */
@@ -48,11 +48,11 @@ public final class GaussSeidel {
     /**
      * num x.
      */
-    private int numPointsX;
+    private final int numPointsX;
     /**
      * num y.
      */
-    private int numPointsY;
+    private final int numPointsY;
     /**
      * boundary.
      */

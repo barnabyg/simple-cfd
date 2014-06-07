@@ -48,22 +48,6 @@ public final class GaussSeidelColor
     /**
      * blah.
      */
-    private Label xLbl;
-    /**
-     * blah.
-     */
-    private Label yLbl;
-    /**
-     * blah.
-     */
-    private Label valueLbl;
-    /**
-     * blah.
-     */
-    private Label iterationsLbl;
-    /**
-     * blah.
-     */
     private TextField xTxt;
     /**
      * blah.
@@ -139,6 +123,11 @@ public final class GaussSeidelColor
     public Panel createSouthPanel() {
         Panel southPanel = new Panel();
         southPanel.setLayout(new GridLayout(3, 1));
+
+        Label xLbl;
+        Label yLbl;
+        Label valueLbl;
+        Label iterationsLbl;
 
         Panel row1 = new Panel();
         xLbl = new Label("x");
