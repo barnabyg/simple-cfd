@@ -16,10 +16,34 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <cobertura.version>2.6</cobertura.version>
+    <cobertura.version>2.7-SNAPSHOT</cobertura.version>
     <pmd.version>3.1</pmd.version>
     <checkstyle.version>2.12.1</checkstyle.version>
   </properties>
+
+   <repositories>
+      <repository>
+         <id>ossrh</id>
+         <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+         <releases>
+            <enabled>false</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </repositories>
+
+   <pluginRepositories>
+      <pluginRepository>
+         <id>codehaus-snapshots</id>
+         <name>Codehaus Snapshots</name>
+         <url>http://nexus.codehaus.org/snapshots/</url>
+         <releases>
+            <enabled>false</enabled>
+         </releases>
+      </pluginRepository>
+   </pluginRepositories>
 
   <build>
     <plugins>
